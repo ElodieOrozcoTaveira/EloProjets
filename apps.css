@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: sandybrown;
+    color: black;
+    font-family: Comic Neue;
+    font-weight: bold;
+}
+
+.container__header{
+    text-align: center;
+    color: rgb(160, 46, 160);
+    border: rgb(24, 142, 253) 2px solid;
+    border-radius: 30px;
+    margin: 2rem 2rem 4rem 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.container{
+    display: flex:
+    
+     
+}
+
+.container__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px
+    
+}
+
